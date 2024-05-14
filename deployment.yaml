@@ -5,7 +5,7 @@ metadata:
   labels:
     app: helloapp
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: helloapp
   ports:
