@@ -32,6 +32,6 @@ spec:
       containers:
       - name: codecatalyst-eks-container
         # The $REPOSITORY_URI and $IMAGE_TAG placeholders will be replaced by actual values supplied by the build action in your workflow
-        image: rushidockerhub1881/my-app1:latest
+        image: rushidockerhub1881/helloapp:latest
         ports:
         - containerPort: 80
